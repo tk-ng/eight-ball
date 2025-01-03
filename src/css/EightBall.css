@@ -1,0 +1,22 @@
+.EightBall {
+	height: 190px;
+	width: 190px;
+}
+
+.EightBall-background {
+	height: 185px;
+	width: 185px;
+	/* background-color: black; */
+	border-radius: 50%;
+	position: relative;
+}
+
+.EightBall-text {
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
